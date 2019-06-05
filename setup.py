@@ -27,9 +27,9 @@ if __name__ == '__main__':
             'demo',
             'demo.sap',
             'demo.sap.matlab',
-            'demo.sap.matlab.python_Ansaldo_PoC_NEO_function_disp'
+            'demo.sap.matlab.python_Ansaldo_PoC_NEO_function'
         ],
-        package_data={'demo.sap.matlab.python_Ansaldo_PoC_NEO_function_disp': ['*.ctf']},
+        package_data={'demo.sap.matlab.python_Ansaldo_PoC_NEO_function': ['*.ctf']},
         # Executes the custom code above in order to delete the build area.
         cmdclass={'install': InstallRuntime}
     )
