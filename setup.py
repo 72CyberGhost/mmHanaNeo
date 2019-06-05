@@ -25,9 +25,9 @@ if __name__ == '__main__':
         platforms=['Linux', 'Windows', 'MacOS'],
         packages=[
             'ansaldo',
-            'ansaldo.db_conn'
+            'ansaldo.dbconn'
         ],
-        package_data={'ansaldo.db_conn': ['*.ctf']},
+        package_data={'ansaldo.dbconn': ['*.ctf']},
         # Executes the custom code above in order to delete the build area.
         cmdclass={'install': InstallRuntime}
     )
