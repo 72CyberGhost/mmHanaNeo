@@ -24,12 +24,10 @@ if __name__ == '__main__':
         url='https://www.mathworks.com/',
         platforms=['Linux', 'Windows', 'MacOS'],
         packages=[
-            'demo',
-            'demo.sap',
-            'demo.sap.matlab',
-            'demo.sap.matlab.database_connection'
+            'ansaldo',
+            'ansaldo.db_conn'
         ],
-        package_data={'demo.sap.matlab.database_connection': ['*.ctf']},
+        package_data={'ansaldo.db_conn': ['*.ctf']},
         # Executes the custom code above in order to delete the build area.
         cmdclass={'install': InstallRuntime}
     )
