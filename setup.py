@@ -25,9 +25,9 @@ if __name__ == '__main__':
         platforms=['Linux', 'Windows', 'MacOS'],
         packages=[
             'ansaldo',
-            'ansaldo.Ansaldo_PoC_NEO_function'
+            'ansaldo.Ansaldo_Vibration_Compressor_Analysis'
         ],
-        package_data={'ansaldo.Ansaldo_PoC_NEO_function': ['*.ctf']},
+        package_data={'ansaldo.Ansaldo_Vibration_Compressor_Analysis': ['*.ctf']},
         # Executes the custom code above in order to delete the build area.
         cmdclass={'install': InstallRuntime}
     )
